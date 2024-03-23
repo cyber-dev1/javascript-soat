@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1460px;
+    margin: 0 auto;
+}
+
+.watch {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 10rem;
+    background-color: black;
+    color: #fff;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.hours {
+    background-color: #FFF;
+    color: black;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+}
+
+.hour {
+    margin-top: 10px;
+    color: red;
+}
+
+.minut {
+    background-color: #FFF;
+    color: black;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+}
+
+.minuts {
+    margin-top: 10px;
+    color: green;
+}
+
+.sekund {
+    background-color: #FFF;
+    color: black;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+}
+
+.sikund {
+    margin-top: 10px;
+    color: blue;
+}
+
+.title {
+    text-align: center;
+    position: relative;
+    top: 140px;
+    letter-spacing: 1px;
+    font-size: 42px;
+}
+
+.watchs {
+    color: blue;
+}
